@@ -8,6 +8,8 @@ site_name: laranja
 
 nav:
    - Home: index.md
+   - Entendimento do Problema: Entendimento do Problema.md
+   - Levantamento e Priorização de Requisitos: Levantamento e Priorização de Requisitos.md
 
 theme:
    name: material 
