@@ -1,0 +1,27 @@
+
+
+repo_url: https://github.com/Pabloserrapxx/Laranja_mec-nica/tree/main
+repo_name: Laranja_mec-nica
+
+
+site_name: laranja
+
+nav:
+   - Home: index.md
+
+theme:
+   name: material 
+   palette:
+    - scheme: default
+      toggle: 
+         icon: material/toggle-switch-off-outline
+         name: Dark mode
+      primary: orange
+    - scheme: slate
+      toggle:
+         icon: material/toggle-switch
+         name: Light mode
+      primary: orange
+   
+extra_css:
+   - css/custom.css
