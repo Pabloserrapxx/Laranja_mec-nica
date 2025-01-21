@@ -1,29 +1,27 @@
-name: Deploy MkDocs to GitHub Pages
+name: Deploy MkDocs
 
 on:
   push:
     branches:
-      - main
+      - main  # Ou o branch principal do seu projeto
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v3
+    - name: Checkout do código
+      uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.12'  
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
 
-      - name: Install dependencies
-        run: |
-          pip install mkdocs-material
+    - name: Instalar dependências
+      run: pip install mkdocs-material
 
-      - name: Deploy to GitHub Pages
-        run: |
-          mkdocs gh-deploy --force
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Deploy MkDocs para GitHub Pages
+      env:
+        GH_TOKEN: ${{ secrets.GH_PAT }}
+      run: mkdocs gh-deploy --force --remote-branch gh-pages
