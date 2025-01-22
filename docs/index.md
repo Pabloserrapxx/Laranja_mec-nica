@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Mercado Livre
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Este repositório foi criado para a documentação do projeto da primeira etapa do trainee da empresa junior Engnet
 
-## Commands
+## Objetivo
+O objetivo deste projeto é aplicar as técnicas da Engenharia de Requisitos por meio da engenharia reversa do aplicativo Mercado Livre. O trabalho será dividido em quatro etapas principais: Entendimento do Problema, Levantamento e Priorização de Requisitos, Modelagem e Finalização.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Esta documentação foi elaborada para apresentar o processo e os resultados obtidos em cada etapa, utilizando ferramentas como HTML, CSS e GitHub Pages para a publicação e organização das informações.
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+

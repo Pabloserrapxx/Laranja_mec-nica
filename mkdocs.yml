@@ -4,12 +4,14 @@ repo_url: https://github.com/Pabloserrapxx/Laranja_mec-nica/tree/main
 repo_name: Laranja_mec-nica
 
 
-site_name: laranja
+site_name: Laranja Mecânica
 
 nav:
    - Home: index.md
    - Entendimento do Problema: Entendimento do Problema.md
    - Levantamento e Priorização de Requisitos: Levantamento e Priorização de Requisitos.md
+   - Modelagem: Modelagem.md
+   - Finalização: Finalizacao.md
 
 theme:
    name: material 
