@@ -1,6 +1,6 @@
 # Mercado Livre
 
-Este repositório foi criado para a documentação do projeto da primeira etapa do trainee da empresa junior Engnet
+Este repositório foi criado para hospedar a documentação do projeto desenvolvido durante a primeira etapa do programa trainee da Empresa Júnior Engnet.
 
 ## Objetivo
 O objetivo deste projeto é aplicar as técnicas da Engenharia de Requisitos por meio da engenharia reversa do aplicativo Mercado Livre. O trabalho será dividido em quatro etapas principais: Entendimento do Problema, Levantamento e Priorização de Requisitos, Modelagem e Finalização.
