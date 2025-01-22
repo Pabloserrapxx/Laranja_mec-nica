@@ -21,7 +21,4 @@ jobs:
     - name: Instalar dependências
       run: pip install mkdocs-material
 
-    - name: Deploy MkDocs para GitHub Pages
-      env:
-        GH_TOKEN: ${{ secrets.GH_PAT }}
-      run: mkdocs gh-deploy --force --remote-branch gh-pages
+ 
