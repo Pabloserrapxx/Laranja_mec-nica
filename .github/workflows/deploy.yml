@@ -1,44 +1,41 @@
 name: MkDocs Deploy
-
 on:
   push:
     branches:
-      - main
+      - main  # Ou a sua branch principal
+
+permissions:
+  contents: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Install dependencies
+      - name: Configure Git Credentials
         run: |
-          pip install mkdocs
-          pip install mkdocs-material
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
-      - name: Setup Git Credentials
+      # Adicione este passo se o problema persistir com a permissão 'contents: write'
+      - name: Setup Git Credentials with PAT (Optional)
         run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
 
-      - name: Check Git Remote
-        run: git remote -v
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
 
-      - name: Create gh-pages Branch (if not exists)
-        run: |
-          git checkout --orphan gh-pages || true
-          git commit --allow-empty -m "Initial gh-pages commit" || true
-          git push origin gh-pages --force || true
-          git checkout - || true
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
 
-      - name: Deploy with MkDocs
-        run: mkdocs gh-deploy --force
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+
+      - run: pip install mkdocs mkdocs-material # Instala MkDocs também
+
+      - run: mkdocs gh-deploy --force
