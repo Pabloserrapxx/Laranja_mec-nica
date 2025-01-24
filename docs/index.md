@@ -1,3 +1,8 @@
+
+<div style="text-align: center;">
+    <img src="https://logodownload.org/wp-content/uploads/2016/08/mercado-livre-logo-0-1536x1536.png" alt="Logo do Mercado Livre" width="500">
+</div>
+
 # Mercado Livre 
 
 Este repositório foi criado para hospedar a documentação do projeto desenvolvido durante a primeira etapa do programa trainee da Empresa Júnior Engnet.
