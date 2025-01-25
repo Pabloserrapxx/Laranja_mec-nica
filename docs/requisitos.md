@@ -1,4 +1,31 @@
 # **2. Levantamento de Requisitos**
+Nesta etapa, serão identificados e priorizados os requisitos relacionados às diferentes áreas do aplicativo Mercado Livre. 
+Os requisitos estão organizados em duas categorias principais: funcionais, que descrevem as funcionalidades esperadas do sistema
+e não funcionais, que detalham como o sistema deve se comportar. Abaixo se enquadram as técnicas utilizadas para o levantamento dos requisitos
+identificados para o Mercdo Livre.
+
+## Desk Research
+
+A técnica de elicitação de requisitos conhecida como Desk Research é um método exploratório e analítico utilizado para reunir informações a partir de fontes secundárias já existentes.
+Baseando-se em pesquisas em documentos, artigos, relatórios, sites e outros materiais publicados,
+o analista busca identificar padrões, boas práticas e ideias que possam ser aplicadas ao projeto em questão.
+Essa abordagem permite ao analista compreender como sistemas similares funcionam, identificar tendências do mercado e mapear soluções adotadas
+por concorrentes ou empresas do mesmo segmento.
+Além disso, o Desk Research é uma técnica eficiente para coletar dados sobre necessidades do público-alvo, desafios comuns em sistemas similares e requisitos legais ou regulatórios aplicáveis.
+
+## Instropecção
+
+A introspecção é uma técnica de levantamento de requisitos em que o analista de sistemas utiliza sua própria experiência, conhecimentos prévios e percepção pessoal para imaginar e descrever como o sistema deve funcionar. 
+Trata-se de um processo reflexivo e autônomo, no qual o analista se coloca no lugar dos usuários ou das partes interessadas e tenta antecipar suas necessidades,
+problemas, expectativas e possíveis soluções.
+
+
+## Diagrama de casos de uso
+
+Um diagrama de casos de uso é uma representação visual que descreve as interações entre os usuários (atores) e as funcionalidades (casos de uso) de um sistema. Ele ilustra, de maneira simples e intuitiva, o que o sistema deve fazer para atender às necessidades dos usuários, destacando os principais processos ou serviços oferecidos.
+
+## Requisitos Levantados
+A seguir está a tabela de requisitos elicitados utilizando as técnicas descritas anteriormente.
 
 2.1-Tabela de Requisitos Funcionais (RFs)
 
