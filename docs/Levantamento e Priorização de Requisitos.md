@@ -2,7 +2,7 @@
 
 #  Priorização dos Requisitos
 
-## 3.1 - Priorização do Backlog Geral
+## 3.1 - Priorização dos Requisitos
 
 Com o objetivo de priorizar as funcionalidades do produto, a equipe utilizou uma etapa do workshop Lean Inception chamada Revisão Técnica e de Negócio. Nessa fase, cada funcionalidade foi classificada em três níveis, de 1 a 3:
 
