@@ -9,23 +9,37 @@ site_name: Laranja Mecânica
 nav:
    - Home: index.md
    - Entendimento do Problema: Entendimento do Problema.md
-   - Levantamento e Priorização de Requisitos: Levantamento e Priorização de Requisitos.md
+   - Levantamento e Priorização de Requisitos: 
+      - Levantamento de Requistos: requisitos.md
+      - Priorização de Requisitos: Levantamento e Priorização de Requisitos.md
+   
    - Modelagem: Modelagem.md
    - Finalização: Finalizacao.md
 
+
 theme:
-   name: material 
-   palette:
-    - scheme: default
-      toggle: 
-         icon: material/toggle-switch-off-outline
-         name: Dark mode
-      primary: orange
-    - scheme: slate
-      toggle:
-         icon: material/toggle-switch
-         name: Light mode
-      primary: orange
-   
+    name: material
+    custom_dir: "docs"
+    palette:
+        - scheme: default
+          primary: yellow
+          accent: yellow
+          toggle:
+            icon: material/toggle-switch-off-outline
+            name: Modo Escuro
+        - scheme: slate
+          primary: orange
+          accent: orange
+          toggle:
+            icon: material/toggle-switch
+            name: Modo Claro
+    features:
+        - navigation.tabs
+        - navigation.expand 
+        
 extra_css:
-   - css/custom.css
+    - css/custom.css
+extra_templates:
+      - header.html
+extra_javascript:
+  - extra.js
