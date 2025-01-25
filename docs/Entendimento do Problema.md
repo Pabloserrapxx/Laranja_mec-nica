@@ -1,12 +1,12 @@
 # **1. Entendimento do Problema**
 
-## **Mercado Livre**
+# Mercado Livre
 
-O Mercado Livre é a plataforma de comércio eletrônico mais popular da América Latina, onde você pode encontrar e comprar milhões de produtos, desde eletrônicos e roupas até livros e acessórios. Com uma interface intuitiva, o Mercado Livre facilita a busca e a compra de tudo o que você precisa, garantindo segurança e qualidade nas transações.
+O **Mercado Livre** é o aplicativo de comércio eletrônico mais popular da América Latina, onde você pode encontrar e comprar milhões de produtos, desde eletrônicos e roupas até livros e acessórios. Com uma interface intuitiva, o aplicativo facilita a busca e a compra de tudo o que você precisa, garantindo segurança e qualidade nas transações.
 
-## **Análise de Stakeholders e Necessidades: Identificação de Problemas para o Mercado Livre**
+## Análise de Stakeholders e Necessidades: Identificação de Problemas para o Mercado Livre
 
-A **Análise de Stakeholders e Necessidades** é uma técnica usada para compreender as demandas e os desafios enfrentados pelos diversos públicos (stakeholders) que interagem com o Mercado Livre. A partir dessa análise, foram identificados problemas críticos que a plataforma precisava resolver, com o objetivo de oferecer uma solução eficiente, escalável e adaptada aos diversos tipos de usuários.
+A **Análise de Stakeholders e Necessidades** é uma técnica usada para compreender as demandas e os desafios enfrentados pelos diversos públicos (stakeholders) que interagem com o **app do Mercado Livre**. A partir dessa análise, foram identificados problemas críticos que o aplicativo precisava resolver, com o objetivo de oferecer uma solução eficiente, escalável e adaptada aos diversos tipos de usuários.
 
 ## Problemas Identificados 
 

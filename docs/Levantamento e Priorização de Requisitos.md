@@ -163,8 +163,30 @@ Os requisitos em sua devida priorização são:
 
 
 
-## 3.2 - MVP
-Com base na priorização do backlog, também é possível criar um MVP contendo os requisitos que obtiverem uma pontuação igual ou superior a 5. Esse critério garante que o MVP inclua apenas as funcionalidades essenciais.
+# 3.2 - MVP (Produto Mínimo Viável)
+
+O conceito de **MVP (Produto Mínimo Viável)** é uma prática fundamental no desenvolvimento ágil, pois permite lançar uma versão inicial do produto com o conjunto mínimo de funcionalidades que atendem às necessidades dos usuários, possibilitando validar rapidamente as hipóteses de mercado e coletar feedback valioso.
+
+## Por que usar um MVP?
+
+A principal razão para adotar um MVP é **focar nas funcionalidades essenciais** que garantem que o produto ofereça valor imediato ao usuário, sem desperdiçar tempo ou recursos no desenvolvimento de características que não são prioritárias no início. Esse foco nas funcionalidades principais permite testar o produto no mercado mais rapidamente e de forma mais eficiente, com custos reduzidos e evitando a sobrecarga de desenvolvimento de recursos desnecessários.
+
+## Decisões tomadas no desenvolvimento do MVP
+
+- **Priorizar funcionalidades essenciais:** Com base na priorização do backlog, foram selecionados os requisitos que obtiveram uma pontuação superior a 2. Isso garante que o MVP inclua apenas os recursos mais importantes para o funcionamento básico do produto, ou seja, os recursos que são críticos para que o produto resolva o problema principal dos usuários.
+  
+- **Agilidade no lançamento:** O MVP permite que o time de desenvolvimento se concentre no lançamento de um produto funcional em um período mais curto. Ao entregar um produto funcional cedo, a equipe pode avaliar as reações dos usuários e fazer ajustes rápidos, de modo a evoluir o produto de forma mais alinhada com as necessidades reais do mercado.
+
+- **Iteração com base no feedback:** Uma vez lançado o MVP, é possível realizar ciclos rápidos de melhoria baseados no feedback dos usuários. Essa abordagem reduz o risco de desenvolvimento de funcionalidades que não seriam bem recebidas pelo público-alvo, e também permite que o produto evolua de acordo com a demanda real do mercado.
+
+### Critério de Seleção para o MVP: Prioridade > 2
+
+Para garantir que o MVP inclua apenas as funcionalidades essenciais, definimos um critério claro: apenas os requisitos (funcionais e não funcionais) com pontuação de prioridade igual ou superior a 5 serão incluídos no MVP.
+
+#### Por que Prioridade maior que 2?
+
+*   **Foco no Máximo Impacto com Mínimo Esforço:** Os requisitos com prioridade 5 são aqueles que entregam o maior valor agregado com o menor esforço de implementação. Isso garante que o MVP seja uma versão funcional e de alto impacto do produto.
+*   **Funcionalidades Essenciais:** Requisitos com prioridade 5 representam as funcionalidades centrais do produto, as que realmente fazem o produto ser útil e atraente para os usuários iniciais.
 
 ### 3.2.1 - Requisitos Funcionais - MVP
 | ID   | Requisito Funcional                                                                                                                                 | Valor Agregado | Esforço | Prioridade |
