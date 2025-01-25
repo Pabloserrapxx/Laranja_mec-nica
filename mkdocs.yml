@@ -7,15 +7,14 @@ repo_name: Laranja_mec-nica
 site_name: Laranja Mecânica
 
 nav:
-   - Home: index.md
-   - Entendimento do Problema: Entendimento do Problema.md
-   - Levantamento e Priorização de Requisitos: 
-      - Levantamento de Requistos: requisitos.md
-      - Priorização de Requisitos: Levantamento e Priorização de Requisitos.md
-   
-   - Modelagem: Modelagem.md
-   - Finalização: Finalizacao.md
+    - Home: index.md
+    - Entendimento do Problema: Entendimento do Problema.md
+    - Levantamento e Priorização de Requisitos: 
+        - Levantamento de Requistos: requisitos.md
+        - Priorização de Requisitos: Levantamento e Priorização de Requisitos.md
 
+    - Modelagem: Modelagem.md
+    - Finalização: Finalizacao.md
 
 theme:
     name: material
@@ -34,8 +33,6 @@ theme:
             icon: material/toggle-switch
             name: Modo Claro
     features:
-        - navigation.tabs
-        - navigation.expand 
         
 extra_css:
     - css/custom.css
