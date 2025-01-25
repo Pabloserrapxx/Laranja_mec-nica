@@ -181,7 +181,7 @@ A principal razão para adotar um MVP é **focar nas funcionalidades essenciais*
 
 ### Critério de Seleção para o MVP: Prioridade > 2
 
-Para garantir que o MVP inclua apenas as funcionalidades essenciais, definimos um critério claro: apenas os requisitos (funcionais e não funcionais) com pontuação de prioridade igual ou superior a 5 serão incluídos no MVP.
+Para garantir que o MVP inclua apenas as funcionalidades essenciais, definimos um critério claro: apenas os requisitos (funcionais e não funcionais) com pontuação de prioridade superior a 2 serão incluídos no MVP.
 
 #### Por que Prioridade maior que 2?
 
