@@ -15,7 +15,7 @@ A criação de personas é um processo que envolve pesquisa, análise de dados e
 As fotos das personas foram criadas utilizando o site [This-Person-Does-not-Exist.com](https://this-person-does-not-exist.com/pt).
 
 ### Persona Primária 1: Marcos Almeida 
-<img src="" width="150px"> 
+<img src="https://raw.githubusercontent.com/Pabloserrapxx/Laranja_mec-nica/refs/heads/main/docs/css/persona%20falsa1.jfif" width="150px"> 
 
 **Nome: Marcos Almeida**
 
@@ -30,7 +30,7 @@ As fotos das personas foram criadas utilizando o site [This-Person-Does-not-Exis
 - **Expectativas:**  Marcos espera que o Mercado Livre o ajude a se destacar em um mercado competitivo, fornecendo suporte para alcançar novos clientes e consolidar sua marca como uma referência em eletrônicos.
 
 ### Persona Primária 2: Carla Mendonça
-<img src=" " width="150px">
+<img src="https://raw.githubusercontent.com/Pabloserrapxx/Laranja_mec-nica/refs/heads/main/docs/css/persona%20falsa2.jfif " width="150px">
   
 **Nome:Carla Mendonça**
 
@@ -46,7 +46,7 @@ As fotos das personas foram criadas utilizando o site [This-Person-Does-not-Exis
 
 
 ### Persona Secundária 1: Gabriel Santos
-<img src=" " width= "150px">
+<img src="https://raw.githubusercontent.com/Pabloserrapxx/Laranja_mec-nica/refs/heads/main/docs/css/persona%20falsa%203.jfif " width= "150px">
 
 **Nome: Gabriel Santos**
 
@@ -62,7 +62,7 @@ As fotos das personas foram criadas utilizando o site [This-Person-Does-not-Exis
 
   
 ### Persona Secundária 2: Ana Claúdia Rodrigues
-<img src=" " width="150px">
+<img src="https://raw.githubusercontent.com/Pabloserrapxx/Laranja_mec-nica/refs/heads/main/docs/css/persona%20falsa%204.jfif " width="150px">
 
 **Nome:Ana Cláudia Rodrigues**
 
@@ -79,7 +79,7 @@ As fotos das personas foram criadas utilizando o site [This-Person-Does-not-Exis
 ## Anti-Personas
 
 ### Anti-Persona 1: João Adibe Silva (Adolescente)
-<img src=" " width="150px">
+<img src="https://raw.githubusercontent.com/Pabloserrapxx/Laranja_mec-nica/refs/heads/main/docs/css/persona%20falsa%205.jfif " width="150px">
 
 **Nome: João Adibe Silva**
 
@@ -93,7 +93,7 @@ As fotos das personas foram criadas utilizando o site [This-Person-Does-not-Exis
 - **Expectativas:** João não precisa de um aplicativo do Mercado Livre. Ele não tem nenhuma fonte de renda. Os seus pais o proibem de fazer qualquer compra online
 
 ### Anti-Persona 2: Clara da Silva Santos (Aposentada)
-<img src=" " width="150px"> 
+<img src="https://raw.githubusercontent.com/Pabloserrapxx/Laranja_mec-nica/refs/heads/main/docs/css/persona%20falsa%206.jfif " width="150px"> 
 
 **Nome: Clara da Silva Santos**
 
