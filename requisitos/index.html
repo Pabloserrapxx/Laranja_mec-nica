@@ -1,0 +1,1273 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Entendimento%20do%20Problema/">
+      
+      
+        <link rel="next" href="../Levantamento%20e%20Prioriza%C3%A7%C3%A3o%20de%20Requisitos/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>Levantamento de Requistos - Laranja Mecânica</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="yellow" data-md-color-accent="yellow">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2-levantamento-de-requisitos" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Laranja Mecânica" class="md-header__button md-logo" aria-label="Laranja Mecânica" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Laranja Mecânica
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Levantamento de Requistos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="yellow" data-md-color-accent="yellow"  aria-label="Modo Escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo Escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="orange"  aria-label="Modo Claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo Claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Pabloserrapxx/Laranja_mec-nica/tree/main" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Laranja_mec-nica
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Laranja Mecânica" class="md-nav__button md-logo" aria-label="Laranja Mecânica" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Laranja Mecânica
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Pabloserrapxx/Laranja_mec-nica/tree/main" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Laranja_mec-nica
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entendimento%20do%20Problema/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Entendimento do Problema
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Levantamento e Priorização de Requisitos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Levantamento e Priorização de Requisitos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Levantamento de Requistos
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Levantamento de Requistos
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#desk-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desk Research
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instropeccao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instropecção
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de casos de uso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-levantados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Levantados
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Levantamento%20e%20Prioriza%C3%A7%C3%A3o%20de%20Requisitos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Priorização de Requisitos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelagem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diagrama.pdf" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    caso de uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cenarios
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Finalização
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Finalização
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Finalizacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conclusão
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#desk-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desk Research
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instropeccao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instropecção
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de casos de uso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-levantados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Levantados
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="2-levantamento-de-requisitos"><strong>2. Levantamento de Requisitos</strong></h1>
+<p>Nesta etapa, serão identificados e priorizados os requisitos relacionados às diferentes áreas do aplicativo Mercado Livre. 
+Os requisitos estão organizados em duas categorias principais: funcionais, que descrevem as funcionalidades esperadas do sistema
+e não funcionais, que detalham como o sistema deve se comportar. Abaixo se enquadram as técnicas utilizadas para o levantamento dos requisitos
+identificados para o Mercdo Livre.</p>
+<h2 id="desk-research">Desk Research</h2>
+<p>A técnica de elicitação de requisitos conhecida como Desk Research é um método exploratório e analítico utilizado para reunir informações a partir de fontes secundárias já existentes.
+Baseando-se em pesquisas em documentos, artigos, relatórios, sites e outros materiais publicados,
+o analista busca identificar padrões, boas práticas e ideias que possam ser aplicadas ao projeto em questão.
+Essa abordagem permite ao analista compreender como sistemas similares funcionam, identificar tendências do mercado e mapear soluções adotadas
+por concorrentes ou empresas do mesmo segmento.
+Além disso, o Desk Research é uma técnica eficiente para coletar dados sobre necessidades do público-alvo, desafios comuns em sistemas similares e requisitos legais ou regulatórios aplicáveis.</p>
+<h2 id="instropeccao">Instropecção</h2>
+<p>A introspecção é uma técnica de levantamento de requisitos em que o analista de sistemas utiliza sua própria experiência, conhecimentos prévios e percepção pessoal para imaginar e descrever como o sistema deve funcionar. 
+Trata-se de um processo reflexivo e autônomo, no qual o analista se coloca no lugar dos usuários ou das partes interessadas e tenta antecipar suas necessidades,
+problemas, expectativas e possíveis soluções.</p>
+<h2 id="diagrama-de-casos-de-uso">Diagrama de casos de uso</h2>
+<p>Um diagrama de casos de uso é uma representação visual que descreve as interações entre os usuários (atores) e as funcionalidades (casos de uso) de um sistema. Ele ilustra, de maneira simples e intuitiva, o que o sistema deve fazer para atender às necessidades dos usuários, destacando os principais processos ou serviços oferecidos.</p>
+<h2 id="requisitos-levantados">Requisitos Levantados</h2>
+<p>A seguir está a tabela de requisitos elicitados utilizando as técnicas descritas anteriormente.</p>
+<p>2.1-Tabela de Requisitos Funcionais (RFs)</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito Funcional</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF01</td>
+<td>O sistema deve permitir que vendedores cadastrem produtos de diversas categorias.</td>
+</tr>
+<tr>
+<td>RF02</td>
+<td>Deve permitir organizar produtos por categorias e subcategorias (ex.: Eletrônicos &gt; Smartphones).</td>
+</tr>
+<tr>
+<td>RF03</td>
+<td>O sistema deve oferecer filtros avançados (ex.: faixa de preço, avaliações, localização do vendedor, etc.).</td>
+</tr>
+<tr>
+<td>RF04</td>
+<td>Permitir pesquisa textual com sugestões automáticas e correções ortográficas.</td>
+</tr>
+<tr>
+<td>RF05</td>
+<td>O sistema deve ser integrado a APIs de fornecedores externos para ampliar a base de produtos.</td>
+</tr>
+<tr>
+<td>RF06</td>
+<td>O sistema deve informar a disponibilidade de produtos com base na localização do usuário.</td>
+</tr>
+<tr>
+<td>RF07</td>
+<td>Oferecer estimativa de prazos de entrega de acordo com a localização do comprador e o método de envio.</td>
+</tr>
+<tr>
+<td>RF08</td>
+<td>O usuário deve poder adicionar produtos ao carrinho de compras.</td>
+</tr>
+<tr>
+<td>RF09</td>
+<td>Deve haver suporte a listas de desejos para produtos de interesse.</td>
+</tr>
+<tr>
+<td>RF10</td>
+<td>O sistema deve permitir que usuários avaliem e comentem produtos comprados.</td>
+</tr>
+<tr>
+<td>RF11</td>
+<td>Implementar um algoritmo de recomendação baseado no histórico de compras e navegação do usuário.</td>
+</tr>
+<tr>
+<td>RF12</td>
+<td>Deve existir um canal de comunicação para que os usuários entrem em contato com vendedores ou com o suporte da plataforma.</td>
+</tr>
+<tr>
+<td>RF13</td>
+<td>O sistema deve informar a disponibilidade de produtos com base na localização do usuário.</td>
+</tr>
+<tr>
+<td>RF14</td>
+<td>Oferecer estimativa de prazos de entrega de acordo com a localização do comprador e o método de envio.</td>
+</tr>
+<tr>
+<td>RF15</td>
+<td>O sistema deve permitir que vendedores criem contas e cadastrem suas lojas virtuais.</td>
+</tr>
+<tr>
+<td>RF16</td>
+<td>Deve ser possível personalizar a página da loja com logotipo, descrição, banners e informações de contato.</td>
+</tr>
+<tr>
+<td>RF17</td>
+<td>O sistema deve permitir que vendedores adicionem, editem e removam produtos com descrições, fotos e vídeos.</td>
+</tr>
+<tr>
+<td>RF18</td>
+<td>Oferecer suporte para definir estoque, variações (ex.: cor, tamanho) e preços promocionais.</td>
+</tr>
+<tr>
+<td>RF19</td>
+<td>O sistema deve permitir que compradores sigam lojas e recebam notificações sobre novos produtos ou promoções.</td>
+</tr>
+<tr>
+<td>RF20</td>
+<td>Implementar um sistema de mensagens diretas para que compradores possam tirar dúvidas diretamente com os vendedores.</td>
+</tr>
+<tr>
+<td>RF21</td>
+<td>O sistema deve permitir a exibição dos produtos em categorias gerais e em uma página dedicada à loja do vendedor.</td>
+</tr>
+<tr>
+<td>RF22</td>
+<td>Produtos de pequenos vendedores devem ser destacados em seções específicas (ex.: “Feito à mão” ou “Pequenos negócios”).</td>
+</tr>
+<tr>
+<td>RF23</td>
+<td>Deve ser possível configurar taxas ou comissões sobre vendas realizadas na plataforma.</td>
+</tr>
+<tr>
+<td>RF24</td>
+<td>Compradores devem poder avaliar vendedores e produtos com notas e comentários.</td>
+</tr>
+<tr>
+<td>RF25</td>
+<td>O sistema deve exibir a reputação do vendedor com base nas avaliações recebidas.</td>
+</tr>
+<tr>
+<td>RF26</td>
+<td>O sistema deve permitir que vendedores criem cupons de desconto e promoções exclusivas.</td>
+</tr>
+<tr>
+<td>RF27</td>
+<td>Implementar uma funcionalidade para destacar produtos por tempo limitado em seções promocionais (ex.: “Destaques do dia”).</td>
+</tr>
+<tr>
+<td>RF28</td>
+<td>Oferecer tutoriais e guias para ajudar vendedores a configurar suas lojas e maximizar suas vendas.</td>
+</tr>
+<tr>
+<td>RF29</td>
+<td>Implementar um canal de suporte técnico para resolução de problemas.</td>
+</tr>
+<tr>
+<td>RF30</td>
+<td>O sistema deve oferecer integração com serviços de entrega para cálculo automático de frete e rastreamento de pedidos.</td>
+</tr>
+<tr>
+<td>RF31</td>
+<td>Deve ser possível que vendedores definam opções de envio personalizado (ex.: retirada em loja, entrega local).</td>
+</tr>
+<tr>
+<td>RF32</td>
+<td>O sistema deve integrar uma plataforma de pagamento confiável que suporte cartões de crédito, débito, Pix, PayPal e outras formas de pagamento populares.</td>
+</tr>
+<tr>
+<td>RF33</td>
+<td>Todas as transações devem ser processadas em um ambiente seguro com criptografia.</td>
+</tr>
+<tr>
+<td>RF34</td>
+<td>O sistema deve exigir autenticação em duas etapas (2FA) para vendedores e compradores em ações críticas, como alterações de conta ou grandes transações.</td>
+</tr>
+<tr>
+<td>RF35</td>
+<td>Implementar validação de identidade para vendedores (ex.: envio de documentos e comprovação de endereço).</td>
+</tr>
+<tr>
+<td>RF36</td>
+<td>O sistema deve monitorar todas as transações em tempo real para detectar comportamentos suspeitos ou padrões de fraude.</td>
+</tr>
+<tr>
+<td>RF37</td>
+<td>Implementar mecanismos automáticos para bloquear transações consideradas fraudulentas.</td>
+</tr>
+<tr>
+<td>RF38</td>
+<td>O sistema deve reter o pagamento do comprador até que o vendedor confirme o envio e o comprador receba o produto (ex.: sistema de escrow).</td>
+</tr>
+<tr>
+<td>RF39</td>
+<td>Notificar ambas as partes (comprador e vendedor) sobre o status das transações.</td>
+</tr>
+<tr>
+<td>RF40</td>
+<td>O sistema deve oferecer uma funcionalidade para abertura de disputas em casos de problemas com produtos ou pagamentos.</td>
+</tr>
+<tr>
+<td>RF41</td>
+<td>Deve permitir o processamento de reembolsos de forma parcial ou total com base na resolução da disputa.</td>
+</tr>
+<tr>
+<td>RF42</td>
+<td>Os dados de pagamento (como números de cartões) não devem ser armazenados diretamente no sistema, mas repassados para provedores de pagamento seguros.</td>
+</tr>
+<tr>
+<td>RF43</td>
+<td>Informações pessoais, como endereços e dados bancários, devem ser criptografadas no banco de dados.</td>
+</tr>
+<tr>
+<td>RF44</td>
+<td>O sistema deve registrar todas as transações realizadas por compradores e vendedores e torná-las acessíveis em uma área segura da conta.</td>
+</tr>
+<tr>
+<td>RF45</td>
+<td>O sistema deve alertar usuários em casos de acesso a partir de dispositivos ou locais suspeitos.</td>
+</tr>
+<tr>
+<td>RF46</td>
+<td>O sistema deve calcular automaticamente os custos de entrega com base na localização do comprador, peso e dimensões do produto.</td>
+</tr>
+<tr>
+<td>RF47</td>
+<td>Deve exibir prazos estimados de entrega para cada método de envio disponível.</td>
+</tr>
+<tr>
+<td>RF48</td>
+<td>O sistema deve integrar-se com múltiplas transportadoras para oferecer opções de entrega variadas (ex.: padrão, expresso).</td>
+</tr>
+<tr>
+<td>RF49</td>
+<td>Deve permitir o rastreamento de entregas em tempo real por meio de APIs fornecidas pelas transportadoras.</td>
+</tr>
+<tr>
+<td>RF50</td>
+<td>O sistema deve sugerir rotas de entrega otimizadas para reduzir custos e tempo de transporte.</td>
+</tr>
+<tr>
+<td>RF51</td>
+<td>Deve agrupar pedidos de uma mesma região para economizar em transporte e melhorar a eficiência.</td>
+</tr>
+<tr>
+<td>RF52</td>
+<td>O sistema deve gerenciar estoques em múltiplos centros de distribuição para reduzir o tempo de entrega.</td>
+</tr>
+<tr>
+<td>RF53</td>
+<td>Deve sugerir o centro de distribuição mais próximo ao comprador para envio do pedido.</td>
+</tr>
+<tr>
+<td>RF54</td>
+<td>Enviar notificações automáticas ao cliente sobre o status da entrega (ex.: "pedido enviado", "pedido a caminho", "pedido entregue").</td>
+</tr>
+<tr>
+<td>RF55</td>
+<td>Notificar compradores em casos de atrasos ou problemas logísticos.</td>
+</tr>
+<tr>
+<td>RF56</td>
+<td>Permitir que o cliente solicite devoluções ou trocas, incluindo geração de etiquetas de devolução de forma automática.</td>
+</tr>
+<tr>
+<td>RF57</td>
+<td>Implementar logística reversa eficiente para lidar com devoluções e trocas de produtos, minimizando custos para a plataforma.</td>
+</tr>
+<tr>
+<td>RF58</td>
+<td>Oferecer suporte para entrega em áreas remotas ou com acesso limitado, por meio de parcerias com transportadoras locais ou serviços alternativos.</td>
+</tr>
+<tr>
+<td>RF59</td>
+<td>Exibir ao cliente um mapa com a localização em tempo real do produto durante o transporte.</td>
+</tr>
+<tr>
+<td>RF60</td>
+<td>Permitir pagamento por boletos bancários.</td>
+</tr>
+<tr>
+<td>RF61</td>
+<td>Oferecer parcelamento de compras sem a necessidade de cartão de crédito, através de financiamentos internos ou parcerias com fintechs.</td>
+</tr>
+<tr>
+<td>RF62</td>
+<td>Disponibilizar pagamento por transferência bancária, incluindo PIX (ou equivalente).</td>
+</tr>
+<tr>
+<td>RF63</td>
+<td>Aceitar pagamentos por carteiras digitais, como PayPal, Mercado Pago ou outras plataformas locais.</td>
+</tr>
+<tr>
+<td>RF64</td>
+<td>Oferecer pagamento por débito automático vinculado a contas bancárias.</td>
+</tr>
+<tr>
+<td>RF65</td>
+<td>Suportar métodos de pagamento regionais específicos de cada país ou área (ex.: OXXO no México, PagSeguro no Brasil).</td>
+</tr>
+<tr>
+<td>RF66</td>
+<td>Permitir que clientes realizem pagamentos em lojas físicas ou agências parceiras.</td>
+</tr>
+<tr>
+<td>RF67</td>
+<td>Gerar códigos de barras ou QR codes que possam ser pagos em correspondentes bancários ou lotéricas.</td>
+</tr>
+<tr>
+<td>RF68</td>
+<td>Permitir que os clientes escolham o número de parcelas (dentro de limites pré-definidos).</td>
+</tr>
+<tr>
+<td>RF69</td>
+<td>Oferecer condições promocionais de parcelamento sem juros para compras acima de um valor específico.</td>
+</tr>
+<tr>
+<td>RF70</td>
+<td>Implementar um sistema que notifique automaticamente o cliente sobre boletos vencidos ou parcelas pendentes.</td>
+</tr>
+<tr>
+<td>RF71</td>
+<td>Exibir uma calculadora de pagamentos que simule valores de parcelas, taxas de juros e prazos.</td>
+</tr>
+<tr>
+<td>RF72</td>
+<td>Permitir pagamentos recorrentes para compras como assinaturas ou planos parcelados.</td>
+</tr>
+<tr>
+<td>RF73</td>
+<td>Garantir que o cliente possa solicitar reembolsos ou estornos de maneira simples e transparente.</td>
+</tr>
+<tr>
+<td>RF74</td>
+<td>Implementar uma interface limpa e minimalista com foco em usabilidade.</td>
+</tr>
+<tr>
+<td>RF75</td>
+<td>Disponibilizar menus claros e organizados por categorias de produtos e funcionalidades.</td>
+</tr>
+<tr>
+<td>RF76</td>
+<td>Fornecer uma barra de busca com sugestões automáticas enquanto o usuário digita.</td>
+</tr>
+<tr>
+<td>RF77</td>
+<td>Permitir personalização do idioma e moeda de exibição.</td>
+</tr>
+<tr>
+<td>RF78</td>
+<td>Exibir tutoriais interativos para novos usuários, explicando como navegar e realizar ações básicas.</td>
+</tr>
+<tr>
+<td>RF79</td>
+<td>Oferecer suporte a leitores de tela para usuários com deficiência visual.</td>
+</tr>
+<tr>
+<td>RF80</td>
+<td>Implementar atalhos de teclado para navegação mais rápida.</td>
+</tr>
+<tr>
+<td>RF81</td>
+<td>Permitir ajuste de contraste e tamanho de fonte para pessoas com dificuldades de visão.</td>
+</tr>
+<tr>
+<td>RF82</td>
+<td>Garantir que todos os botões e links sejam acessíveis por dispositivos móveis e touchscreens.</td>
+</tr>
+<tr>
+<td>RF83</td>
+<td>Criar um processo de cadastro rápido e direto, com a opção de login por redes sociais ou contas já existentes.</td>
+</tr>
+<tr>
+<td>RF84</td>
+<td>Oferecer um guia inicial para compradores e vendedores, destacando as principais funcionalidades.</td>
+</tr>
+<tr>
+<td>RF85</td>
+<td>Disponibilizar um FAQ abrangente com respostas às dúvidas mais comuns.</td>
+</tr>
+<tr>
+<td>RF86</td>
+<td>Implementar um chatbot ou assistente virtual para suporte imediato.</td>
+</tr>
+<tr>
+<td>RF87</td>
+<td>Oferecer acesso fácil a canais de atendimento, como e-mail, telefone ou chat ao vivo.</td>
+</tr>
+<tr>
+<td>RF88</td>
+<td>Garantir que a interface seja compatível com todos os tamanhos de tela, incluindo dispositivos móveis, tablets e desktops.</td>
+</tr>
+<tr>
+<td>RF89</td>
+<td>Incluir um sistema de avaliação para que os usuários possam reportar problemas de usabilidade ou sugerir melhorias.</td>
+</tr>
+<tr>
+<td>RF90</td>
+<td>Permitir que os usuários classifiquem a experiência de compra ou venda após utilizarem a plataforma.</td>
+</tr>
+<tr>
+<td>RF91</td>
+<td>Implementar notificações úteis e não intrusivas, como atualizações de pedidos e promoções, sem sobrecarregar o usuário.</td>
+</tr>
+</tbody>
+</table>
+<p>2.2 - Tabela de Requisitos Não Funcionais (RNFs)</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito Não Funcional</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RNF01</td>
+<td>O sistema deve responder às solicitações do usuário em até 2 segundos para pesquisas e carregamento de páginas.</td>
+</tr>
+<tr>
+<td>RNF02</td>
+<td>A plataforma deve suportar um grande número de acessos simultâneos (ex.: 1 milhão de usuários ativos, sendo compradores ou vendedores).</td>
+</tr>
+<tr>
+<td>RNF03</td>
+<td>A interface do usuário deve ser responsiva e funcionar bem em dispositivos móveis e desktops.</td>
+</tr>
+<tr>
+<td>RNF04</td>
+<td>O sistema deve fornecer um design intuitivo com guias visuais para facilitar o uso por diferentes personas.</td>
+</tr>
+<tr>
+<td>RNF05</td>
+<td>O tempo para gerar opções de frete e prazos deve ser inferior a 2 segundos para uma boa experiência do usuário.</td>
+</tr>
+<tr>
+<td>RNF06</td>
+<td>O processamento de transações deve ser realizado em menos de 2 segundos para garantir uma boa experiência do usuário.</td>
+</tr>
+<tr>
+<td>RNF07</td>
+<td>Garantir que todas as páginas carreguem em menos de 2 segundos em conexões comuns (4G ou Wi-Fi).</td>
+</tr>
+<tr>
+<td>RNF08</td>
+<td>Minimizar o uso de recursos do dispositivo para evitar travamentos ou lentidão, especialmente em dispositivos mais antigos.</td>
+</tr>
+<tr>
+<td>RNF09</td>
+<td>O sistema deve funcionar 24/7 sem interrupções perceptíveis para o usuário.</td>
+</tr>
+<tr>
+<td>RNF10</td>
+<td>Garantir que os métodos de pagamento estejam disponíveis 99,9% do tempo para evitar falhas.</td>
+</tr>
+<tr>
+<td>RNF11</td>
+<td>Garantir que o cálculo de frete e prazos seja preciso, mesmo com variações sazonais ou problemas externos.</td>
+</tr>
+<tr>
+<td>RNF12</td>
+<td>O sistema deve garantir que 100% das transações sejam concluídas ou estornadas em caso de falha.</td>
+</tr>
+<tr>
+<td>RNF13</td>
+<td>Deve haver backups diários das informações financeiras e transacionais.</td>
+</tr>
+<tr>
+<td>RNF14</td>
+<td>Todas as transações devem ser processadas em um ambiente seguro com criptografia.</td>
+</tr>
+<tr>
+<td>RNF15</td>
+<td>O sistema deve exigir autenticação em duas etapas (2FA) para vendedores e compradores em ações críticas, como alterações de conta ou grandes transações.</td>
+</tr>
+<tr>
+<td>RNF16</td>
+<td>Implementar validação de identidade para vendedores (ex.: envio de documentos e comprovação de endereço).</td>
+</tr>
+<tr>
+<td>RNF17</td>
+<td>O sistema deve monitorar todas as transações em tempo real para detectar comportamentos suspeitos ou padrões de fraude.</td>
+</tr>
+<tr>
+<td>RNF18</td>
+<td>Implementar mecanismos automáticos para bloquear transações consideradas fraudulentas.</td>
+</tr>
+<tr>
+<td>RNF19</td>
+<td>O sistema deve reter o pagamento do comprador até que o vendedor confirme o envio e o comprador receba o produto (ex.: sistema de escrow).</td>
+</tr>
+<tr>
+<td>RNF20</td>
+<td>Os dados de pagamento (como números de cartões) não devem ser armazenados diretamente no sistema, mas repassados para provedores de pagamento seguros.</td>
+</tr>
+<tr>
+<td>RNF21</td>
+<td>Informações pessoais, como endereços e dados bancários, devem ser criptografadas no banco de dados.</td>
+</tr>
+<tr>
+<td>RNF22</td>
+<td>O sistema deve alertar usuários em casos de acesso a partir de dispositivos ou locais suspeitos.</td>
+</tr>
+<tr>
+<td>RNF23</td>
+<td>O sistema deve registrar todas as transações realizadas por compradores e vendedores e torná-las acessíveis em uma área segura da conta.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+        <script src="../extra.js"></script>
+      
+    
+  </body>
+</html>
