@@ -1,3 +1,5 @@
+
+
 **A Matriz de Rastreabilidade na Análise do Mercado Livre**
 
 Para a conclusão deste projeto de análise do Mercado Livre, a matriz de rastreabilidade emergiu como a ferramenta central e integradora, solidificando o trabalho realizado em cada etapa e fornecendo uma visão clara e acionável de todos os requisitos do sistema. Esta matriz não é apenas um documento, mas sim um instrumento dinâmico que garante a coerência, a qualidade e o rastreamento de todos os elementos do projeto.
