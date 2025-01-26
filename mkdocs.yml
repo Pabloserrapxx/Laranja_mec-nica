@@ -1,46 +1,90 @@
-
-
 repo_url: https://github.com/Pabloserrapxx/Laranja_mec-nica/tree/main
 repo_name: Laranja_mec-nica
-
 
 site_name: Laranja Mecânica
 
 nav:
-    - Home: index.md
-    - Entendimento do Problema: Entendimento do Problema.md
-    - Levantamento e Priorização de Requisitos: 
-        - Levantamento de Requistos: requisitos.md
-        - Priorização de Requisitos: Levantamento e Priorização de Requisitos.md
-
-    - Modelagem:
-       -Modelagem: Modelagem.md
-	 - Personas: Personas.md
-        - Cenarios: cenarios.md
-    - Finalização:
-        - Conclusão: Finalizacao.md
+  - Home: index.md
+  - Entendimento do Problema: Entendimento do Problema.md
+  - Levantamento e Priorização de Requisitos: 
+      - Levantamento de Requistos: requisitos.md
+      - Priorização de Requisitos: Levantamento e Priorização de Requisitos.md
+  - Modelagem:
+      - Modelagem: Modelagem.md
+      - caso de uso: diagrama.pdf
+      - Personas: Personas.md
+      - Cenarios: cenarios.md
+  - Finalização:
+      - Conclusão: Finalizacao.md
 
 theme:
-    name: material
-    custom_dir: "docs"
-    palette:
-        - scheme: default
-          primary: yellow
-          accent: yellow
-          toggle:
-            icon: material/toggle-switch-off-outline
-            name: Modo Escuro
-        - scheme: slate
-          primary: orange
-          accent: orange
-          toggle:
-            icon: material/toggle-switch
-            name: Modo Claro
-    features:
-        
+  name: material
+  custom_dir: "docs"
+  palette:
+    - scheme: default
+      primary: yellow
+      accent: yellow
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Modo Escuro
+    - scheme: slate
+      primary: orange
+      accent: orange
+      toggle:
+        icon: material/toggle-switch
+        name: Modo Claro
+  features: []
+
 extra_css:
-    - css/custom.css
+  - css/custom.css
+
 extra_templates:
-      - header.html
+  - header.html
+
+extra_javascript:
+  - extra.js
+repo_url: https://github.com/Pabloserrapxx/Laranja_mec-nica/tree/main
+repo_name: Laranja_mec-nica
+
+site_name: Laranja Mecânica
+
+nav:
+  - Home: index.md
+  - Entendimento do Problema: Entendimento do Problema.md
+  - Levantamento e Priorização de Requisitos: 
+      - Levantamento de Requistos: requisitos.md
+      - Priorização de Requisitos: Levantamento e Priorização de Requisitos.md
+  - Modelagem:
+      - Modelagem: Modelagem.md
+      - caso de uso: diagrama.pdf
+      - Personas: Personas.md
+      - Cenarios: cenarios.md
+  - Finalização:
+      - Conclusão: Finalizacao.md
+
+theme:
+  name: material
+  custom_dir: "docs"
+  palette:
+    - scheme: default
+      primary: yellow
+      accent: yellow
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Modo Escuro
+    - scheme: slate
+      primary: orange
+      accent: orange
+      toggle:
+        icon: material/toggle-switch
+        name: Modo Claro
+  features: []
+
+extra_css:
+  - css/custom.css
+
+extra_templates:
+  - header.html
+
 extra_javascript:
   - extra.js
