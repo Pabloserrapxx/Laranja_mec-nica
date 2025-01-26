@@ -14,7 +14,8 @@ nav:
         - Priorização de Requisitos: Levantamento e Priorização de Requisitos.md
 
     - Modelagem: Modelagem.md
-    - Finalização: Finalizacao.md
+    - Finalização:
+        - Conclusão: Finalizacao.md
 
 theme:
     name: material
