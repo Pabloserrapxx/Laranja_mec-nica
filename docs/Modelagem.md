@@ -92,7 +92,8 @@ A modelagem do Mercado Livre proporciona uma visão ampla e detalhada do sistema
 - Representação das restrições e exceções que impactam a experiência do usuário.
 
 Este documento serve como referência para o desenvolvimento e análise do sistema, além de facilitar a comunicação entre os membros da equipe. Com isso, espera-se que o projeto alcance os objetivos propostos com clareza e eficiência.
-# **1. Modelagem**
+
+# **Caso de uso**
 
 <center>
   ![Modelagem](diagrama.jpg)

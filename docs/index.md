@@ -14,3 +14,36 @@ Esta documentação foi elaborada para apresentar o processo e os resultados obt
 
 
 
+## Equipe - Laranja mecânica
+
+<center>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/LucasOliveiraDiasMarquesFerreira">
+        <img src="https://avatars.githubusercontent.com/u/100947807?v=4" width="190" style="border-radius: 50%;" alt="Lucas de Oliveira"/>
+        <br/><sub><b>Lucas de Oliveira </b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/jlucasiqueira">
+        <img src="https://avatars.githubusercontent.com/u/143570377?v=4" width="190" style="border-radius: 50%;" alt="Joao Lucas"/>
+        <br/><sub><b>Joao Lucas Araujo Siqueira
+</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Pabloserrapxx">
+        <img src="https://github.com/Pabloserrapxx.png" width="190" style="border-radius: 50%;" alt="Pablo Serra"/>
+        <br/><sub><b>Pablo Serra Carvalho</b></sub>
+      </a>
+    </td>
+     <td align="center">
+      <a href="https://github.com/Dev-Gabriel-Lima">
+        <img src="https://avatars.githubusercontent.com/u/156694363?v=4" width="190" style="border-radius: 50%;" alt="Gabriel de Oliveira"/>
+        <br/><sub><b>Gabriel de Oliveira Lima</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+</center>
